@@ -27,7 +27,7 @@ python -m venv env
 .\env\Scripts\activate
 
 3) Clone the repository:
-git clone <repository-url>
+git clone https://github.com/Panchadip-128/Drone-Navigation-using-Reinforcement-Learning-
 
 4) Navigate to the project directory:
 cd drone-navigator
