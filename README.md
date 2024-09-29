@@ -20,7 +20,7 @@ Drone Navigator is an advanced software solution designed to empower autonomous 
 
 ## Installation:
 
-1) Create a virtual environment
+1) Create a virtual python environment
 python -m venv env
 
 2) Activate the virtual environment:
