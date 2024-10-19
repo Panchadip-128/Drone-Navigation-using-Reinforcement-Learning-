@@ -89,16 +89,16 @@ from stable_baselines3 import PPO
     def render(self):
         print(f"Drone Position: {self.state}, Target: {self.target}, Obstacles: {self.obstacles}")
 
-# Create the environment
+Create the environment
 env = DroneEnv()
 
-# Create the model
+Create the model
 model = PPO("MlpPolicy", env, verbose=1)
 
-# Train the model for a number of timesteps
+Train the model for a number of timesteps
 model.learn(total_timesteps=10000)
 
-# Test the trained model
+Test the trained model
 obs = env.reset()
 for _ in range(100):
     action, _ = model.predict(obs)
