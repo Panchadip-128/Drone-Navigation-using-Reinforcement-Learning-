@@ -116,9 +116,9 @@ Testing the Model: After training, the model is tested in a loop where it predic
 
 ## Future Scopes:
 
-Parameter Tuning: Experiment with different hyperparameters for the PPO model to improve performance.
-Enhanced Environment: Add more obstacles, or features, or increase the complexity of the environment.
-Logging: Implement logging of rewards and actions to analyze the agent's performance.
+- Parameter Tuning: Experiment with different hyperparameters for the PPO model to improve performance.
+- Enhanced Environment: Add more obstacles, or features, or increase the complexity of the environment.
+- Logging: Implement logging of rewards and actions to analyze the agent's performance.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
