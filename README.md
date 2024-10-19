@@ -108,11 +108,11 @@ for _ in range(100):
         obs = env.reset()
         
 ## Explanation of Code
-Environment Class: This class creates a drone environment with actions to move in four directions, collision detection, and target reaching.
+- Environment Class: This class creates a drone environment with actions to move in four directions, collision detection, and target reaching.
 
-Training: The PPO model is created with the MLP policy and trained for 10,000 timesteps.
+- Training: The PPO model is created with the MLP policy and trained for 10,000 timesteps.
 
-Testing the Model: After training, the model is tested in a loop where it predicts actions based on the current state, steps through the environment, and renders the state.
+- Testing the Model: After training, the model is tested in a loop where it predicts actions based on the current state, steps through the environment, and renders the state.
 
 ## Future Scopes:
 
