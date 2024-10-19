@@ -18,6 +18,15 @@ Drone Navigator is an advanced software solution designed to empower autonomous 
 - Modular Design
 - Learning Mechanism
 
+## Technologies Used
+
+- **Python**: The primary programming language for implementing the RL algorithms.
+- **TensorFlow/PyTorch**: For building and training neural networks.
+- **OpenAI Gym**: For simulating the drone's environment.
+- **NumPy**: For numerical operations.
+- **Matplotlib**: For visualizing results and training progress.
+- **ROS (Robot Operating System)** (optional): For real-world application and control.
+
 ## Installation:
 
 1) Create a virtual python environment
@@ -34,3 +43,6 @@ cd drone-navigator
 
 5) Install the required packages:
 pip install -r requirements.txt
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
