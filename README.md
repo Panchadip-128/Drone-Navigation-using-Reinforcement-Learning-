@@ -51,7 +51,7 @@ import gym
 import numpy as np
 from stable_baselines3 import PPO
 
-class DroneEnv(gym.Env):
+    class DroneEnv(gym.Env):
     def __init__(self):
         super(DroneEnv, self).__init__()
         self.action_space = gym.spaces.Discrete(4)  # 0: Up, 1: Down, 2: Left, 3: Right
