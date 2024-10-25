@@ -13,9 +13,9 @@ This project visualizes a drone's pathfinding journey in a grid environment, usi
     3. Heatmap of Pathfinding Costs
     4. Dynamic Movement Visualization
     5. 3D Surface Plot of Pathfinding Costs
--> Reinforcement Learning (RL) Model 
--> Contributing 
--> License
+- -> Reinforcement Learning (RL) Model 
+- -> Contributing 
+- -> License
 
 # Features
 Pathfinding with A Algorithm*: Finds an optimal, shortest path from the starting position to the target using the A* heuristic. Reinforcement Learning Navigation: A reinforcement learning model trains to achieve the navigation goal while avoiding obstacles, rewarding efficient paths. Dynamic Obstacles: Specify obstacle positions to simulate real-world barriers and allow pathfinding adaptations. Comprehensive Visualizations: Includes static, dynamic, and 3D visualizations of the environment, path costs, and drone’s decision-making process. Real-time Animation: Watch the drone’s actions in a step-by-step movement toward the target.
