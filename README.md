@@ -2,11 +2,11 @@
 This project visualizes a drone's pathfinding journey in a grid environment, using both classical A* search and Reinforcement Learning (RL) techniques to achieve optimal navigation. The drone aims to reach a target location while avoiding obstacles and optimizing path cost. This file provides a comprehensive overview of the project’s structure, setup instructions, and available visualizations.
 
 # Table of Contents
--> Features 
--> Project Blocks 
--> Setup Instructions 
--> Usage 
--> Visualizations
+- ->  Features 
+- -> Project Blocks 
+- -> Setup Instructions 
+- -> Usage 
+- -> Visualizations
 
     1. Basic Environment Setup
     2. Static Path Visualization
