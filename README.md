@@ -1,7 +1,7 @@
-# Drone Pathfinding and Navigation with Reinforcement Learning
+# Drone Pathfinding and Navigation with Reinforcement Learning:
 This project visualizes a drone's pathfinding journey in a grid environment, using both classical A* search and Reinforcement Learning (RL) techniques to achieve optimal navigation. The drone aims to reach a target location while avoiding obstacles and optimizing path cost. This file provides a comprehensive overview of the project’s structure, setup instructions, and available visualizations.
 
-# Table of Contents
+# Table of Contents:
 - ->  Features 
 - -> Project Blocks 
 - -> Setup Instructions 
@@ -17,15 +17,15 @@ This project visualizes a drone's pathfinding journey in a grid environment, usi
 - -> Contributing 
 - -> License
 
-# Features
+# Features:
 Pathfinding with A Algorithm*: Finds an optimal, shortest path from the starting position to the target using the A* heuristic. Reinforcement Learning Navigation: A reinforcement learning model trains to achieve the navigation goal while avoiding obstacles, rewarding efficient paths. Dynamic Obstacles: Specify obstacle positions to simulate real-world barriers and allow pathfinding adaptations. Comprehensive Visualizations: Includes static, dynamic, and 3D visualizations of the environment, path costs, and drone’s decision-making process. Real-time Animation: Watch the drone’s actions in a step-by-step movement toward the target.
 
-# Project Structure
+# Project Structure:
 pathfinding block: Contains the A* algorithm and helper functions for calculating paths.
 reinforcement_learning block: Implements the reinforcement learning environment using OpenAI Gym, where the drone learns an optimal policy for navigation.
 visualizations block: Defines visualization functions, including static, dynamic, and heatmap visualizations.
 
-# Setup Instructions
+# Setup Instructions:
 Clone the repository:
 
 git clone https://github.com/Panchadip-128/Drone-Navigation_Detection_using_RL.git cd Drone-Navigation_Detection_using_RL
@@ -105,7 +105,7 @@ The RL model’s path can be dynamically visualized, showing how it navigates st
             obs = env.reset()
             
 # Contributing
-Contributions are welcome! Please fork the repository and create a pull request with improvements or feature addition or contact @Github:Panchadip-128 or @mail: panchadip125@gmail.com.
+Contributions are welcome! Please fork the repository and create a pull request with improvements or feature addition or contact @Github:Panchadip-128 or mail@: panchadip125@gmail.com.
 
 # License
 This project is licensed under MIT License policies.
