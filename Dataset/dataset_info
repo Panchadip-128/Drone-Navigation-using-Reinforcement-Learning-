@@ -1,4 +1,5 @@
 Detailed Description of the Dataset for Drone Navigation Project
+
 1. Environment State Representation
 The environment for the drone navigation task is modeled as a 2D grid (10x10) where each cell can represent different types of entities that the drone interacts with. The key components are:
 
